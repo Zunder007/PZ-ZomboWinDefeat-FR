@@ -57,4 +57,16 @@ IGUI_FR = {
 
 	IGUI_immersiveThoughts = "(Placeholder) Immersive Thoughts",
 	IGUI_immersiveThoughts_Tooltip = "Depending on your traits and moodles, your character may<br>express their thoughts during defeats or consensual acts.<br><br>Coming in future update! Spicy texts awaits.",
+
+	IGUI_removeDummy = "During defeat: Zombies appear naked",
+	IGUI_removeDummy_Tooltip = "When defeated by a zombie, their clothes will be removed during an animation.<br>Zombies do not lose their clothing after an animation.",
+
+	IGUI_noSick = "Disable Sickness",
+	IGUI_noSick_Tooltip = "Disables receiving sickness from defeats.<br>- Will render 'Hygiene' traits useless",
+
+	IGUI_ubM = "Profession: Sexperiment Setting - Infection Gain multiplier",
+	IGUI_ubM_Tooltip = "This dictates how fast the infection increases outside a defeat.<br><br>Profession/ Trait specific setting! ",
+
+	IGUI_noNpcSick = "[NPC] - Disable Npc Ailments - [NPC]",
+	IGUI_noNpcSick_Tooltip = "Disables Npcs receiving any buffs or debuffs from defeats.<br>- Reduces RAM usage; increases performance.",
 }
