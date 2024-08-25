@@ -1,0 +1,60 @@
+IGUI_FR = {
+	IGUI_Cooldown_Grabs = "Vêtements déshabillés par prise",
+	
+	IGUI_Cooldown_Pene = "Temps d'attente entre le déshabillage ou la défaite",
+	IGUI_Cooldown_Pene_Tooltip = "Pendant le temps d'attente, les zombies effectueront des attaques régulières.",
+	
+	IGUI_Grab_Range = "Portée de saisie des zombies",
+	IGUI_Grab_Range_Tooltip = "N'affecte que la portée de saisie, de déshabillage ou de défaite, la portée réelle d'attaque des zombies reste inchangée.",
+	
+	IGUI_Drop_Items_On_Ground = "[NPC] Unforgiving Zombies",
+	IGUI_Drop_Items_On_Ground_Tooltip = "Stripped clothing will not be retained in NPCs' inventory.<br>Lost clothing will be dropped on the ground.<br><br>For players, this is now a trait.",
+	
+	IGUI_Defeat_Enable = "Enable Zombo Win Defeat",
+	IGUI_Defeat_Enable_Tooltip = "Master setting to enable all ZomboWin Defeat features.<br><br>Important: FPS must be at 60. Higher or lower will affect mod.",
+	
+	IGUI_Defeat_Enable_NPC = "[NPC] NPCs can be defeated",
+	IGUI_Defeat_Enable_NPC_Tooltip = "Enables or disable defeats for NPCs.<br>Note: If disabled, zombies will still attack them!",
+	
+	IGUI_MockEvasion = "No zombie wound debuffs",
+	IGUI_MockEvasion_Tooltip = "No scratches, lacerations, bites or bleeding status debuffs.<br>However, damage is still inflicted. You're not immortal.",
+	
+	IGUI_Sickness = "[NPC] Sickness from zombie defeat",
+	IGUI_Sickness_Tooltip = "Similar to food sickness and 100% treatable.<br><br>For players, these are now traits.",
+	
+	IGUI_SkipFor = "(Debug) Skip the defeat formalities",
+	IGUI_SkipFor_Tooltip = "Will put out before the first date ;)<br>For debug only, zombies will defeat regardless of clothes.",
+	
+	IGUI_traumaLength = "Duration of the 'Traumatized' trait",
+	IGUI_traumaLength_Tooltip = "Traumatization occurs after a defeat depending on your traits, inducing severe Stress and Unhappiness.<br>Any changes ingame will update every ingame hour.",
+	
+	IGUI_groinInfection = "(Placeholder) Groin infection from zombie defeat",
+	IGUI_groinInfection_Tooltip = "Not implemented. Defeats causes wound-like infections<br>to the groin area and may lead to cuts and/or lacerations.<br><br>Coming in future update!",
+	
+	IGUI_ExtraVuln = "Ignore skirts and dresses",
+	IGUI_ExtraVuln_Tooltip = "Can be defeated while wearing skirts or dresses.<br>Note: Long skirts and dresses will cause clipping issues.",
+	
+	IGUI_pvp_Enable = "(Placeholder) If PVP enabled, allow PVP defeat",
+	IGUI_pvp_Enable_Tooltip = "Not implemented, first implementation will be npcs.<br><br>Coming in future update!",
+	
+	IGUI_samesexStrip = "Same-sex strip enabled",
+	IGUI_samesexStrip_Tooltip = "If on, zombies of the same sex will strip clothing.<br>If off, zombies of the same sex will do regular damage instead.<br><br>Note: Same sex zombies cannot defeat yet. Once all clothes are<br>lost, same sex zombies will start doing regular damage.",
+
+	IGUI_clothingRip = "[NPC] Stripped clothing staggers zombies",
+	IGUI_clothingRip_Tooltip = "Zombies will fall forward if they strip a piece of clothing.<br><br>For players, this is now a trait.",
+	
+	IGUI_dryHump = "(Placeholder) Super Horny Zombies",
+	IGUI_dryHump_Tooltip = "Occasionally, zombies will imitate a defeat but only dry hump.<br>Causes no trauma or negative effects and<br>serves only to slow you down or "stun" momentarily.<br><br>Coming in future update!",
+	
+	IGUI_stripPenalty = "[NPC] Strip Penalty",
+	IGUI_stripPenalty_Tooltip = "Being stripped momentarily slows NPCs down.<br><br>For players, this is now a trait.",
+	
+	IGUI_defeatPenalty = "[NPC] It Follows",
+	IGUI_defeatPenalty_Tooltip = "NPCs die after being defeated.<br><br>For players, this is now a trait.",
+	
+	IGUI_exhaustedPenalty = "(Placeholder) Hard-Mode: Exhaustion Penalty",
+	IGUI_exhaustedPenalty_Tooltip = "When overly exhausted, being defeated, you will begin to lose health.<br>For the true masochist of Project Zomboid.<br><br>Coming in future update!",
+
+	IGUI_immersiveThoughts = "(Placeholder) Immersive Thoughts",
+	IGUI_immersiveThoughts_Tooltip = "Depending on your traits and moodles, your character may<br>express their thoughts during defeats or consensual acts.<br><br>Coming in future update! Spicy texts awaits.",
+}
