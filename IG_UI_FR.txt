@@ -1,4 +1,13 @@
 IGUI_FR = {
+	IGUI_Defeat_Enable = "Enable Zombo Win Defeat",
+	IGUI_Defeat_Enable_Tooltip = "Master setting to enable all ZomboWin Defeat features.<br><br>Important: FPS must be at 60. Higher or lower will affect mod.",
+
+	IGUI_dWho = "Choose what can initiate defeats:",
+	IGUI_dWho_Tooltip = "This option enables or restricts entities to initate defeats and strips.<br><br>With 'Zombies and Bandits' option, both entities can force defeats upon the player(s).<br><br>With 'Zombies Only' option, only zombies can force defeats upon the player(s),<br>bandits will never initiate any type of defeat/ strip.<br><br>With 'Bandits Only' option, only bandits can force defeats upon the player(s),<br>zombies will never inititate any type of defeat/ strip.<br><br><br>This mod auto-detects if 'Bandits' mod is enabled.",
+
+	IGUI_bluntKnockout = "Knockdown chance",
+	IGUI_bluntKnockout_Tooltip = "Only applies to zombies, increases chances of knocking down zombies.<br>Does NOT subdue target; you will still need rope!",
+
 	IGUI_Cooldown_Grabs = "Vêtements déshabillés par prise",
 	
 	IGUI_Cooldown_Pene = "Temps d'attente entre le déshabillage ou la défaite",
@@ -6,57 +15,18 @@ IGUI_FR = {
 	
 	IGUI_Grab_Range = "Portée de saisie des zombies",
 	IGUI_Grab_Range_Tooltip = "N'affecte que la portée de saisie, de déshabillage ou de défaite, la portée réelle d'attaque des zombies reste inchangée.",
-	
-	IGUI_Drop_Items_On_Ground = "[NPC] Unforgiving Zombies",
-	IGUI_Drop_Items_On_Ground_Tooltip = "Stripped clothing will not be retained in NPCs' inventory.<br>Lost clothing will be dropped on the ground.<br><br>For players, this is now a trait.",
-	
-	IGUI_Defeat_Enable = "Enable Zombo Win Defeat",
-	IGUI_Defeat_Enable_Tooltip = "Master setting to enable all ZomboWin Defeat features.<br><br>Important: FPS must be at 60. Higher or lower will affect mod.",
-	
-	IGUI_Defeat_Enable_NPC = "[NPC] NPCs can be defeated",
-	IGUI_Defeat_Enable_NPC_Tooltip = "Enables or disable defeats for NPCs.<br>Note: If disabled, zombies will still attack them!",
-	
+
 	IGUI_MockEvasion = "No zombie wound debuffs",
 	IGUI_MockEvasion_Tooltip = "No scratches, lacerations, bites or bleeding status debuffs.<br>However, damage is still inflicted. You're not immortal.",
-	
-	IGUI_Sickness = "[NPC] Sickness from zombie defeat",
-	IGUI_Sickness_Tooltip = "Similar to food sickness and 100% treatable.<br><br>For players, these are now traits.",
-	
-	IGUI_SkipFor = "(Debug) Skip the defeat formalities",
-	IGUI_SkipFor_Tooltip = "Will put out before the first date ;)<br>For debug only, zombies will defeat regardless of clothes.",
-	
+
 	IGUI_traumaLength = "Duration of the 'Traumatized' trait",
 	IGUI_traumaLength_Tooltip = "Traumatization occurs after a defeat depending on your traits, inducing severe Stress and Unhappiness.<br>Any changes ingame will update every ingame hour.",
-	
-	IGUI_groinInfection = "(Placeholder) Groin infection from zombie defeat",
-	IGUI_groinInfection_Tooltip = "Not implemented. Defeats causes wound-like infections<br>to the groin area and may lead to cuts and/or lacerations.<br><br>Coming in future update!",
-	
+
 	IGUI_ExtraVuln = "Ignore skirts and dresses",
 	IGUI_ExtraVuln_Tooltip = "Can be defeated while wearing skirts or dresses.<br>Note: Long skirts and dresses will cause clipping issues.",
-	
-	IGUI_pvp_Enable = "(Placeholder) If PVP enabled, allow PVP defeat",
-	IGUI_pvp_Enable_Tooltip = "Not implemented, first implementation will be npcs.<br><br>Coming in future update!",
-	
+
 	IGUI_samesexStrip = "Same-sex strip enabled",
 	IGUI_samesexStrip_Tooltip = "If on, zombies of the same sex will strip clothing.<br>If off, zombies of the same sex will do regular damage instead.<br><br>Note: Same sex zombies cannot defeat yet. Once all clothes are<br>lost, same sex zombies will start doing regular damage.",
-
-	IGUI_clothingRip = "[NPC] Stripped clothing staggers zombies",
-	IGUI_clothingRip_Tooltip = "Zombies will fall forward if they strip a piece of clothing.<br><br>For players, this is now a trait.",
-	
-	IGUI_dryHump = "(Placeholder) Super Horny Zombies",
-	IGUI_dryHump_Tooltip = "Occasionally, zombies will imitate a defeat but only dry hump.<br>Causes no trauma or negative effects and<br>serves only to slow you down or "stun" momentarily.<br><br>Coming in future update!",
-	
-	IGUI_stripPenalty = "[NPC] Strip Penalty",
-	IGUI_stripPenalty_Tooltip = "Being stripped momentarily slows NPCs down.<br><br>For players, this is now a trait.",
-	
-	IGUI_defeatPenalty = "[NPC] It Follows",
-	IGUI_defeatPenalty_Tooltip = "NPCs die after being defeated.<br><br>For players, this is now a trait.",
-	
-	IGUI_exhaustedPenalty = "(Placeholder) Hard-Mode: Exhaustion Penalty",
-	IGUI_exhaustedPenalty_Tooltip = "When overly exhausted, being defeated, you will begin to lose health.<br>For the true masochist of Project Zomboid.<br><br>Coming in future update!",
-
-	IGUI_immersiveThoughts = "(Placeholder) Immersive Thoughts",
-	IGUI_immersiveThoughts_Tooltip = "Depending on your traits and moodles, your character may<br>express their thoughts during defeats or consensual acts.<br><br>Coming in future update! Spicy texts awaits.",
 
 	IGUI_removeDummy = "During defeat: Zombies appear naked",
 	IGUI_removeDummy_Tooltip = "When defeated by a zombie, their clothes will be removed during an animation.<br>Zombies do not lose their clothing after an animation.",
@@ -67,6 +37,60 @@ IGUI_FR = {
 	IGUI_ubM = "Profession: Sexperiment Setting - Infection Gain multiplier",
 	IGUI_ubM_Tooltip = "This dictates how fast the infection increases outside a defeat.<br><br>Profession/ Trait specific setting! ",
 
+	IGUI_bDefeatHo = "Hostile bandits' horniness - [Bandits]",
+	IGUI_bDefeatHo_Tooltip = "With the right conditions, how likely will a hostile bandit become a rapist.<br>They may become a rapist at any given time.<br>While they are not horny, they behave like normal bandits.<br><br>The chances applies to each, individual 'hostile' bandit!<br>Same-sex bandits will become rapists, but not defeat yet.<br><br>During a defeat, any approaching bandits will become horny. However,<br>being surrounded by attacking bandits will get you killed instead!<br><br>Requires Bandits Mod!",
+	
+	IGUI_bDefeatDistance = "Defeat recognition distance - [Bandits]",
+	IGUI_bDefeatDistance_Tooltip = "Sets the distance before a bandit can recognize you've become an easy prey to defeat.<br>Bandits will still require a line of sight to recognize your injuries, if any.<br><br>Requires Bandits Mod!",
+	
+	IGUI_bDefeatHP = "Defeat HP condition - [Bandits]",
+	IGUI_bDefeatHP_Tooltip = "Sets the HP threshold before bandits will consider defeat attempts on you.<br><br>This also depends on the chances a bandit has became a rapist.<br><br>With 'Healthy', bandits will attempt defeats while you have full HP or less.<br>With 'Wounded', bandits will attempt defeats while you have half HP or less.<br>With 'Dying', bandits will attempt defeats while you have 30% HP or less.<br><br>Warning: You may be killed without being defeated if:<br>- Surrounded by attacking bandits<br>- Using a low or lowered chance of 'Hostile bandits horniness'<br>- Being shot, from beyond the 'defeat recognition range'<br>- Using settings with a low health threshold<br><br>Requires Bandits Mod!",
+
+	IGUI_bBanDefeat = "Bandits strip and defeat cooldown - [Bandits]",
+	IGUI_bBanDefeat_Tooltip = "Delay between next strip or defeat by bandits. During a delay, bandits will NOT attack or shove but will still chase the player.",
+
+	IGUI_bBanSpeech = "Enable custom text speeches - [Bandits]",
+	IGUI_bBanSpeech_Tooltip = "Bandits may occasionally taunt the player or tell you whats on their mind.",
+
+	IGUI_Defeat_Enable_NPC = "[NPC] NPCs can be defeated",
+	IGUI_Defeat_Enable_NPC_Tooltip = "Enables or disable defeats for NPCs.<br>Note: If disabled, zombies will still attack them!",
+
+	IGUI_Sickness = "[NPC] Sickness from zombie defeat",
+	IGUI_Sickness_Tooltip = "Similar to food sickness and 100% treatable.<br><br>For players, these are now traits.",
+
+	IGUI_Drop_Items_On_Ground = "[NPC] Unforgiving Zombies",
+	IGUI_Drop_Items_On_Ground_Tooltip = "Stripped clothing will not be retained in NPCs' inventory.<br>Lost clothing will be dropped on the ground.<br><br>For players, this is now a trait.",
+
+	IGUI_clothingRip = "[NPC] Stripped clothing staggers zombies",
+	IGUI_clothingRip_Tooltip = "Zombies will fall forward if they strip a piece of clothing.<br><br>For players, this is now a trait.",
+
+	IGUI_stripPenalty = "[NPC] Strip Penalty",
+	IGUI_stripPenalty_Tooltip = "Being stripped momentarily slows NPCs down.<br><br>For players, this is now a trait.",
+	
+	IGUI_defeatPenalty = "[NPC] It Follows",
+	IGUI_defeatPenalty_Tooltip = "NPCs die after being defeated.<br><br>For players, this is now a trait.",
+
 	IGUI_noNpcSick = "[NPC] - Disable Npc Ailments - [NPC]",
 	IGUI_noNpcSick_Tooltip = "Disables Npcs receiving any buffs or debuffs from defeats.<br>- Reduces RAM usage; increases performance.",
+	
+	IGUI_SkipFor = "(Debug) Skip the defeat formalities",
+	IGUI_SkipFor_Tooltip = "Will put out before the first date ;)<br>For debug only, zombies will defeat regardless of clothes.",
+	
+	IGUI_groinInfection = "(Placeholder) Groin infection from zombie defeat",
+	IGUI_groinInfection_Tooltip = "Not implemented. Defeats causes wound-like infections<br>to the groin area and may lead to cuts and/or lacerations.<br><br>Coming in future update!",
+	
+	IGUI_exhaustedPenalty = "(Placeholder) Hard-Mode: Exhaustion Penalty",
+	IGUI_exhaustedPenalty_Tooltip = "When overly exhausted, being defeated, you will begin to lose health.<br>For the true masochist of Project Zomboid.<br><br>Coming in future update!",
+	
+	IGUI_pvp_Enable = "(Placeholder) If PVP enabled, allow PVP defeat",
+	IGUI_pvp_Enable_Tooltip = "Not implemented, first implementation will be npcs.<br><br>Coming in future update!",
+	
+	IGUI_dryHump = "(Placeholder) Super Horny Zombies",
+	IGUI_dryHump_Tooltip = "Occasionally, zombies will imitate a defeat but only dry hump.<br>Causes no trauma or negative effects and<br>serves only to slow you down or "stun" momentarily.<br><br>Coming in future update!",
+	
+	IGUI_immersiveThoughts = "(Placeholder) Immersive Thoughts",
+	IGUI_immersiveThoughts_Tooltip = "Depending on your traits and moodles, your character may<br>express their thoughts during defeats or consensual acts.<br><br>Coming in future update! Spicy texts awaits.",
+
+	IGUI_dAttempt = "[NPC] - Defeat Attempts - [NPC]",
+	IGUI_dAttempt_Tooltip = "NPC defeats are often rapidfire and most are unsuccessful. This process causes lag or may even crash the game.<br>By limiting the amount of times a "stubborn" NPC can be defeated will reduce that risk.<br>When a defeat attempt limit is reached, the target NPC will be ignored for further defeat attempts.<br><br>Ignored NPCs will still be attacked. Ensure 'NPCs can be defeated' option is toggled on.<br>If not, this option will do nothing.",
 }
